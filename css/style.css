@@ -9,6 +9,11 @@ body {
     color: #444;
 }
 
+a {
+    color: #444;
+    text-decoration: none;
+}
+
 .intro-left {
     background: url(../img/1.jpg);
     position: fixed;
@@ -37,6 +42,8 @@ section {
     margin: 5rem;
     font-size: 1.2rem;
 }
+
+
 
 @media (max-width: 768px) {
     .intro-left {

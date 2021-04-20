@@ -33,7 +33,19 @@ a {
 .full-height {
     height: 100%;
 }
-
+p.name,
+p.role {
+    animation: backInLeft;
+    animation-duration: 1.5s;
+}
+.intro, .quote {
+    animation: backInUp;
+    animation-duration: 1.5s;
+}
+.project {
+    animation: backInRight;
+    animation-duration: 1.5s;
+}
 .quote {
     float: right;
 }
